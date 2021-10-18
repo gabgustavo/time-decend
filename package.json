@@ -1,0 +1,41 @@
+{
+  "name": "time-decend",
+  "version": "0.0.1",
+  "description": "time decend",
+  "main": "index.js",
+  "scripts": {
+    "prod": "cross-env NODE_ENV=production webpack --mode production --progress",
+    "dev": "cross-env NODE_ENV=development webpack --watch --mode development --progress"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "keywords": [
+    "time decend"
+  ],
+  "author": "Luis Ávila (gustavoavilabar@hotmail.com)",
+  "license": "GPL-2.0-only",
+  "homepage": "",
+  "devDependencies": {
+    "@babel/core": "^7.11.1",
+    "@babel/preset-env": "^7.11.0",
+    "babel-loader": "^8.1.0",
+    "cross-env": "^7.0.2",
+    "css-loader": "^4.2.1",
+    "cssnano": "^4.1.10",
+    "file-loader": "^6.2.0",
+    "mini-css-extract-plugin": "^0.9.0",
+    "node-sass": "^6.0.1",
+    "optimize-css-assets-webpack-plugin": "^5.0.3",
+    "sass-loader": "^12.1.0",
+    "style-loader": "^1.2.1",
+    "terser-webpack-plugin": "^4.2.3",
+    "url-loader": "^4.1.1",
+    "webpack": "^5.51.1",
+    "webpack-cli": "^3.3.12"
+  },
+  "dependencies": {
+    "axios": "^0.22.0"
+  }
+}

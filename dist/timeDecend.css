@@ -1,0 +1,52 @@
+.lg--container-clock-descend, .lg--clock-descend-2 {
+    height: 100px;
+    background-color: #faf2ef;
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+    width: 100%;
+}
+.theme-default .digits .lg--item-digits {
+    display: inline-block;
+    user-select: none;
+    width: 110px;
+    height: 68px;
+    border: 1px solid #d1d1d1;
+    margin: 3px;
+    box-shadow: 2px 3px 4px 1px #8d8d8d;
+}
+
+.theme-default .digits .lg--item-digits span {
+    display: block;
+    font-size: 30px;
+}
+.theme-default .digits .lg--item-digits .lg--print-days-label,
+.theme-default .digits .lg--item-digits .lg--print-hours-label,
+.theme-default .digits .lg--item-digits .lg--print-minutes-label,
+.theme-default .digits .lg--item-digits .lg--print-seconds-label {
+    background-color: #008aff;
+    color: #fff;
+}
+.theme-default .digits .lg--item-digits .lg--print-days-number,
+.theme-default .digits .lg--item-digits .lg--print-hours-number,
+.theme-default .digits .lg--item-digits .lg--print-minutes-number,
+.theme-default .digits .lg--item-digits .lg--print-seconds-number {
+    background-color: #d3d3d3;
+    color: #008aff;
+}
+
+.theme-default .digits .message{
+    width: 60%;
+    text-align: center;
+    background-color: #008aff;
+    height: 65px;
+    margin: 0 auto;
+    user-select: none;
+    box-shadow: 2px 3px 4px 1px #8d8d8d;
+}
+
+.theme-default .digits .message p {
+    padding: 10px;
+    color: #fff;
+    font-size: 20px;
+}
